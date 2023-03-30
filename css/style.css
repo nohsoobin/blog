@@ -2,7 +2,7 @@ body {
   font: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #f3d9e5;
 }
 
 .container {
@@ -18,7 +18,7 @@ ul {
 
 .dark {
   padding: 15px;
-  background-color: #35424a;
+  background-color: #834362;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -26,11 +26,11 @@ ul {
 
 /* Header  */
 header {
-  background-color: #35424a;
+  background-color: #834362;
   color: white;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #9d3668 3px solid;
 }
 
 header a {
@@ -58,20 +58,21 @@ header nav {
   margin-top: 10px;
 }
 
-header .highlight, header .current a {
-  color: #e8491d; 
+header .highlight,
+header .current a {
+  color: #311422;
   font-weight: bold;
 }
 
 header a:hover {
   color: #aaaaaa;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  background: url("../img/showcase.jpg") no-repeat 0 -400px;
   text-align: center;
   color: white;
 }
@@ -79,7 +80,7 @@ header a:hover {
 #showcase h1 {
   margin-top: 100px;
   font-size: 55px;
-  margin-bottom: 10px;;
+  margin-bottom: 10px;
 }
 
 #showcase p {
@@ -89,9 +90,9 @@ header a:hover {
 /* Newsletter */
 
 #newsletter {
-  background-color: #35424a;
+  background-color: #b79ba8;
   padding: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #newsletter h1 {
@@ -111,7 +112,7 @@ header a:hover {
 
 .button_1 {
   height: 38px;
-  background-color: #e8491d;
+  background-color: #b85e88;
   border: 0;
   padding: 0 20px;
   color: white;
@@ -136,7 +137,7 @@ header a:hover {
 
 /* Sidebar */
 aside#sidebar {
-  float: right; 
+  float: right;
   width: 30%;
   margin-top: 10px;
 }
@@ -161,12 +162,12 @@ footer {
   padding: 20px;
   margin-top: 20px;
   color: white;
-  background-color: #e8491d;
+  background-color: #834362;
   text-align: center;
 }
 
 /* Media Quaries  */
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   header #branding,
   header nav,
   header nav li,
@@ -174,8 +175,7 @@ footer {
   #newsletter form,
   #boxes .box,
   article#main-col,
-  aside#sidebar
-  {
+  aside#sidebar {
     float: none;
     text-align: center;
     width: 100%;
@@ -191,14 +191,17 @@ footer {
     padding-bottom: 20px;
   }
 
-  #newsletter button, .quote button, header li {
+  #newsletter button,
+  .quote button,
+  header li {
     display: block;
     width: 100%;
   }
 
-  #newsletter form input[type="email"], .quote input, .quote textarea {
-    width: 100%; 
+  #newsletter form input[type="email"],
+  .quote input,
+  .quote textarea {
+    width: 100%;
     margin-bottom: 5px;
   }
-
 }
